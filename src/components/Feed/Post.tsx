@@ -53,7 +53,7 @@ const Post = ({ username, title, userimage, img, caption }: Props) => {
 				<input
 					type='text'
 					placeholder='Add a comment...'
-					className='placeholder:text-center w-full p-2 rounded-lg border-2 border-gray-300'
+					className='placeholder:text-center border-none flex-1 p-2 rounded-lg border-2 border-gray-300'
 				/>
 				<FaPaperPlane className='text-2xl cursor-pointer hover:scale-110 transition-transform duration-300 ease-in-out' />
 			</div>
