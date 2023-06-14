@@ -7,7 +7,7 @@ type Props = {
 
 const Story = ({ username, img }: Props) => {
 	return (
-		<div className=''>
+		<div className='h-25 w-25'>
 			<Image
 				src={img}
 				width={80}
