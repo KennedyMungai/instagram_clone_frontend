@@ -6,7 +6,7 @@ type Props = {}
 
 const Header = (props: Props) => {
 	return (
-		<div className='flex flex-row justify-around items-center max-w-6xl my-5'>
+		<div className='flex flex-row justify-around items-center max-w-6xl m-2 md:m-5'>
 			{/* Left */}
 			<div className='h-24 w-24 cursor-pointer hidden md:block'>
 				<Image
@@ -38,7 +38,7 @@ const Header = (props: Props) => {
 				/>
 			</div>
 			{/* <Right></Right> */}
-			<div className='flex flex-row justify-around items-center gap-5'>
+			<div className='flex flex-row justify-around items-center gap-2 md:gap-5'>
 				<HiHome className='text-2xl cursor-pointer hover:text-gray-400 hover:scale-125 transition-transform duration-300 ease-in-out hidden md:flex' />
 				<HiPlus className='text-2xl cursor-pointer hover:text-gray-400 hover:scale-125 transition-transform duration-300 ease-in-out' />
 				<div className='rounded-full h-10 w-10'>
