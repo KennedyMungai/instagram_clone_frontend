@@ -35,10 +35,15 @@ const Post = ({ username, title, userimage, img, caption }: Props) => {
 				alt='title'
 				className='rounded-lg w-full'
 			/>
-            <div className='flex flex column'>
-                <div className=''></div>
-                <div className=''></div>
-            </div>
+			<div className='flex flex-row justify-between p-3'>
+				<div className='flex flex-row gap-2'>
+					<AiOutlineHeart className='text-3xl' />
+					<AiOutlineMessage className='text-3xl' />
+				</div>
+				<div className=''>
+					<BsBookmark className='text-3xl' />
+				</div>
+			</div>
 			<h2 className='text-2xl'>{title}</h2>
 		</div>
 	)
