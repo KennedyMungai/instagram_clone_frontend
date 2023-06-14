@@ -27,8 +27,8 @@ const Header = (props: Props) => {
 				/>
 			</div>
 			{/* Middle */}
-			<div className=''>
-				<div className='absolute top-7'>
+			<div className='relative'>
+				<div className='absolute top-2 left-2'>
 					<HiMagnifyingGlass className='text-2xl text-gray-500' />
 				</div>
 				<input
