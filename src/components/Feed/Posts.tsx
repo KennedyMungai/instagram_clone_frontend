@@ -21,7 +21,11 @@ const Posts = (props: Props) => {
 		}
 	]
 
-	return <div>Posts</div>
+    return <div>
+        {posts.map((post) => (
+            return <Post key={post.id} username={post.username} title={post.title} userimage={post.userimage} img={post.img} caption={post.caption} />
+        ))}
+    </div>
 }
 
 export default Posts

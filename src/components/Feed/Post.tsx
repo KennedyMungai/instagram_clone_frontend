@@ -1,12 +1,12 @@
 type Props = {
     username: string,
     title: string,
-    userImage: string,
+    userimage: string,
     img: string,
     caption: string
 }
 
-const Post = ({username, title, userImage, img, caption}: Props) => {
+const Post = ({username, title, userimage, img, caption}: Props) => {
 	return <div>Post</div>
 }
 
