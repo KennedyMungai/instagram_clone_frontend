@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import {AiOutlineHeart, AiOutlineMessage} from 'react-icons/ai'
 import {BsBookmark} from 'react-icons/bs'
+import { FaPaperPlane } from 'react-icons/fa'
 
 type Props = {
 	username: string
@@ -44,7 +45,17 @@ const Post = ({ username, title, userimage, img, caption }: Props) => {
 					<BsBookmark className='text-3xl' />
 				</div>
 			</div>
-			<h2 className='text-2xl'>{title}</h2>
+			<div className='flex flex-row text-center px-10'>
+				<h2 className='text-xl font-bold'>{title}</h2>
+				<p className='text-xl'>{caption}</p>
+			</div>
+			<div className='w-full p-5'>
+				<input
+					type='text'
+					placeholder='Add a comment...'
+					className='placeholder:text-center w-full p-2 rounded-lg border-2 border-gray-300'
+				/>
+			</div>
 		</div>
 	)
 }
