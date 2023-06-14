@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import {AiOutlineHeart, AiOutlineMessage} from 'react-icons/ai'
+import {BsBookmark} from 'react-icons/bs'
 
 type Props = {
 	username: string
