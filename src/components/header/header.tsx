@@ -6,7 +6,7 @@ type Props = {}
 
 const Header = (props: Props) => {
 	return (
-		<div className='shadow-md border-b sticky top-0 bg-white mb-10 z-30'>
+		<nav className='shadow-md border-b sticky top-0 bg-white mb-10 z-30'>
 			<div className='flex flex-row justify-around items-center max-w-6xl m-2 md:m-5'>
 				{/* Left */}
 				<div className='h-24 w-24 cursor-pointer hidden md:block'>
@@ -53,7 +53,7 @@ const Header = (props: Props) => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</nav>
 	)
 }
 

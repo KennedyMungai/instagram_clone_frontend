@@ -1,7 +1,7 @@
 type Props = {}
 
 const Feed = (props: Props) => {
-	return <div>Feed</div>
+	return <section>Feed</section>
 }
 
 export default Feed
