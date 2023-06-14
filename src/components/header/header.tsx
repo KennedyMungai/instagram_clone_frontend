@@ -39,15 +39,15 @@ const Header = (props: Props) => {
 			</div>
 			{/* <Right></Right> */}
 			<div className='flex flex-row justify-around items-center gap-5'>
-				<HiHome className='text-2xl' />
-				<HiPlus className='text-2xl' />
+				<HiHome className='text-2xl cursor-pointer hover:text-gray-400' />
+				<HiPlus className='text-2xl2xl cursor-pointer hover:text-gray-400' />
 				<div className='rounded-full h-10 w-10'>
 					<Image
 						src={'/Images/Profile.jpg'}
 						height={100}
 						width={100}
 						alt='Profile Picture'
-						className='rounded-full'
+						className='rounded-full cursor-pointer hover:opacity-50'
 					/>
 				</div>
 			</div>
