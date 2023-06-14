@@ -25,7 +25,7 @@ const Posts = (props: Props) => {
 	]
 
     return (
-		<div>
+		<div className='py-3'>
 			{posts.map((post) => {
 				return (
 					<Post
