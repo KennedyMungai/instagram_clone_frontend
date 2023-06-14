@@ -18,6 +18,8 @@ const Stories = (props: Props) => {
       ))
 
       setStoryUsers(storyUsers)
+
+      console.log(storyUsers)
     }, [])
     
 
