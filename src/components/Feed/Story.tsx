@@ -7,7 +7,7 @@ type Props = {
 
 const Story = ({ username, img }: Props) => {
 	return (
-		<div className='flex flex-row gap-1'>
+		<div className=''>
 			<Image
 				src={img}
 				width={60}
