@@ -29,8 +29,13 @@ const Header = (props: Props) => {
 			{/* Middle */}
 			<div className=''>
 				<div className=''>
-					<HiMagnifyingGlass className='text-2xl' />
+					<HiMagnifyingGlass className='text-2xl text-gray-500' />
 				</div>
+				<input
+					type='text'
+					placeholder='Search'
+					className='bg-gray-200 w-full p-2 rounded-md'
+				/>
 			</div>
 			{/* <Right></Right> */}
 			<h1>Chicken Wings</h1>
