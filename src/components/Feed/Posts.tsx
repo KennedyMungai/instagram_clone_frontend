@@ -1,4 +1,7 @@
 'use client'
+
+import Post from './Post'
+
 type Props = {}
 
 const Posts = (props: Props) => {
@@ -21,11 +24,22 @@ const Posts = (props: Props) => {
 		}
 	]
 
-    return <div>
-        {posts.map((post) => (
-            return <Post key={post.id} username={post.username} title={post.title} userimage={post.userimage} img={post.img} caption={post.caption} />
-        ))}
-    </div>
+    return (
+		<div>
+			{posts.map((post) => {
+				return (
+					<Post
+						key={post.id}
+						username={post.username}
+						title={post.title}
+						userimage={post.userimage}
+						img={post.img}
+						caption={post.caption}
+					/>
+				)
+			})}
+		</div>
+	)
 }
 
 export default Posts
