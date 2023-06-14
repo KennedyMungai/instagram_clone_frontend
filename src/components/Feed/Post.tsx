@@ -23,7 +23,7 @@ const Post = ({ username, title, userimage, img, caption }: Props) => {
 					<p className='text-sm font-bold'>{username}</p>
 				</div>
 				<div className=''>
-					<p className='cursor-pointer'>...</p>
+					<p className='cursor-pointer text-3xl'>...</p>
 				</div>
 			</div>
 			<Image
