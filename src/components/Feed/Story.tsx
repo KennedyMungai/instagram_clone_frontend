@@ -10,10 +10,10 @@ const Story = ({ username, img }: Props) => {
 		<div className=''>
 			<Image
 				src={img}
-				width={60}
-				height={60}
+				width={80}
+				height={80}
 				alt={username}
-				className='rounded-full'
+				className='rounded-full border-2 border-red-500 cursor-pointer hover:scale-110 transition transform duration-300 ease-in-out'
 			/>
 			<p className='text-sm font-bold'>{username}</p>
 		</div>
