@@ -38,7 +38,19 @@ const Header = (props: Props) => {
 				/>
 			</div>
 			{/* <Right></Right> */}
-			<div className=''></div>
+			<div className='flex flex-row justify-around items-center gap-5'>
+				<HiHome className='text-2xl' />
+				<HiPlus className='text-2xl' />
+				<div className='rounded-full h-10 w-10'>
+					<Image
+						src={'/Images/Profile.jpg'}
+						height={100}
+						width={100}
+						alt='Profile Picture'
+						className='rounded-full'
+					/>
+				</div>
+			</div>
 		</div>
 	)
 }
