@@ -23,7 +23,11 @@ const Stories = (props: Props) => {
     }, [])
     
 
-	return <div>Stories</div>
+	return <div>
+        {storyUsers.map((user) => {
+            return 
+        })}
+    </div>
 }
 
 export default Stories
