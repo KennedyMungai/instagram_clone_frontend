@@ -7,7 +7,7 @@ const Posts = (props: Props) => {
 			id: '1',
 			username: 'ChickenWings1',
 			title: 'Post 1',
-			userimage: 'https://i.pravatar.cc/150?img=53'
+			userimage: '/Images/Profile.jpg'
 		}
 	]
 
