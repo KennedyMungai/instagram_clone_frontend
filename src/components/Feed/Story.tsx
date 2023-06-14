@@ -13,7 +13,7 @@ const Story = ({ username, img }: Props) => {
 				width={60}
 				height={60}
 				alt={username}
-				className='rounded-full border-2 border-red-500 cursor-pointer hover:scale-110 transition transform duration-300 ease-in-out'
+				className='rounded-full border-4 border-red-500 cursor-pointer hover:scale-110 transition transform duration-300 ease-in-out'
 			/>
 			<p className='text-sm w-14 truncate text-center'>{username}</p>
 		</div>
