@@ -1,3 +1,4 @@
+'use client'
 import Stories from './Stories'
 
 type Props = {}
