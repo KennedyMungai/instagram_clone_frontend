@@ -9,14 +9,16 @@ const Header = (props: Props) => {
 			<div className=''>
 				<div className='h-24 w-24 relative hidden md:inline-grid cursor-pointer'>
 					<Image
-						src='/Images/InstagramLogo.png'
+						src='/Images/InstagramText.png'
 						width={512}
 						height={512}
 						alt='Instagram Logo'
 						className='object-contain'
 					/>
+				</div>
+				<div className='h-24 w-24 relative md:hidden cursor-pointer'>
 					<Image
-						src='/Images/InstagramText.png'
+						src='/Images/InstagramLogo.png'
 						width={512}
 						height={512}
 						alt='Instagram Logo'
