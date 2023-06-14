@@ -47,7 +47,7 @@ const Post = ({ username, title, userimage, img, caption }: Props) => {
 			</div>
 			<div className='flex flex-row gap-3 text-center px-10'>
 				<h2 className='text-xl font-bold'>{title}</h2>
-				<p className='text-xl'>{caption}</p>
+				<p className='text-xl truncate'>{caption}</p>
 			</div>
 			<div className='w-full p-5 flex flex-row items-center gap-2'>
 				<input
