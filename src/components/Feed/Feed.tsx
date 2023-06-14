@@ -1,11 +1,13 @@
+import Stories from './Stories'
+
 type Props = {}
 
 const Feed = (props: Props) => {
-    return (
+	return (
 		<section>
 			<div className=''>
 				{/* Stories */}
-
+				<Stories />
 				{/* Posts */}
 			</div>
 			<div className=''>
