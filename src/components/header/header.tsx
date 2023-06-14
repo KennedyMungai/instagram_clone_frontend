@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image'
-import { HiMagnifyingGlass } from 'react-icons/hi2'
+import { HiMagnifyingGlass, HiHome, HiPlus } from 'react-icons/hi2'
 
 type Props = {}
 
@@ -38,7 +38,7 @@ const Header = (props: Props) => {
 				/>
 			</div>
 			{/* <Right></Right> */}
-			<h1>Chicken Wings</h1>
+			<div className=''></div>
 		</div>
 	)
 }
