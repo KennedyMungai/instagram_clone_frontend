@@ -26,8 +26,11 @@ const Header = (props: Props) => {
 				/>
 			</div>
 			{/* Middle */}
-			<h1>Chicken Wings</h1>
-
+			<div className=''>
+				<div className=''>
+					<HiMagnifyingGlass className='text-2xl' />
+				</div>
+			</div>
 			{/* <Right></Right> */}
 			<h1>Chicken Wings</h1>
 		</div>
