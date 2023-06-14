@@ -49,12 +49,13 @@ const Post = ({ username, title, userimage, img, caption }: Props) => {
 				<h2 className='text-xl font-bold'>{title}</h2>
 				<p className='text-xl'>{caption}</p>
 			</div>
-			<div className='w-full p-5'>
+			<div className='w-full p-5 flex flex-row items-center gap-2'>
 				<input
 					type='text'
 					placeholder='Add a comment...'
 					className='placeholder:text-center w-full p-2 rounded-lg border-2 border-gray-300'
 				/>
+				<FaPaperPlane className='text-2xl cursor-pointer' />
 			</div>
 		</div>
 	)
