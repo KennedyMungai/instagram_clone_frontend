@@ -38,11 +38,11 @@ const Post = ({ username, title, userimage, img, caption }: Props) => {
 			/>
 			<div className='flex flex-row justify-between p-3'>
 				<div className='flex flex-row gap-2'>
-					<AiOutlineHeart className='text-3xl' />
-					<AiOutlineMessage className='text-3xl' />
+					<AiOutlineHeart className='text-3xl hover:scale-110 transition-transform duration-300 ease-in-out' />
+					<AiOutlineMessage className='text-3xl hover:scale-110 transition-transform duration-300 ease-in-out' />
 				</div>
 				<div className=''>
-					<BsBookmark className='text-3xl' />
+					<BsBookmark className='text-3xl hover:scale-110 transition-transform duration-300 ease-in-out' />
 				</div>
 			</div>
 			<div className='flex flex-row text-center px-10'>
@@ -55,7 +55,7 @@ const Post = ({ username, title, userimage, img, caption }: Props) => {
 					placeholder='Add a comment...'
 					className='placeholder:text-center w-full p-2 rounded-lg border-2 border-gray-300'
 				/>
-				<FaPaperPlane className='text-2xl cursor-pointer' />
+				<FaPaperPlane className='text-2xl cursor-pointer hover:scale-110 transition-transform duration-300 ease-in-out' />
 			</div>
 		</div>
 	)
