@@ -4,7 +4,7 @@ type Props = {}
 
 const Feed = (props: Props) => {
 	return (
-		<section className='flex flex-row mx-10'>
+		<section className='flex flex-row mx-10 justify-between'>
 			<div className=''>
 				{/* Stories */}
 				<Stories />
