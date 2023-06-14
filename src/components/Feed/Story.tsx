@@ -1,14 +1,23 @@
 import Image from 'next/image'
 
 type Props = {
-    username: str,
-    img: str,
+	username: string
+	img: string
 }
 
-const Story = ({username, img}: Props) => {
-  return (
-    <div className='rounded-full'><Image src={img} width={10} height={10} alt={username} /></div>
-  )
+const Story = ({ username, img }: Props) => {
+	return (
+		<div className='flex flex-row gap-1'>
+			<Image
+				src={img}
+				width={60}
+				height={60}
+				alt={username}
+				className='rounded-full'
+			/>
+			<p className='text-sm font-bold'>{username}</p>
+		</div>
+	)
 }
 
 export default Story
