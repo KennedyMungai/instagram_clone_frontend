@@ -10,7 +10,7 @@ type Props = {
 
 const Post = ({ username, title, userimage, img, caption }: Props) => {
 	return (
-		<div className='bg-white p-2 my-3'>
+		<div className='bg-white p-2 my-3 rounded-lg'>
 			<div className='flex flex-row justify-between py-3'>
 				<div className='flex flex-row items-center gap-1 px-1'>
 					<Image
