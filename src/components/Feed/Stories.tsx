@@ -12,7 +12,7 @@ const Stories = (props: Props) => {
       const storyUsers = minifaker.array(25, (i) => (
         {
             username: minifaker.username({locale: 'en'}),
-            img: `https://i.pravatar.cc/150?img=${Math.ceil(Math.random * 70)}`,
+            img: `https://i.pravatar.cc/150?img=${Math.ceil(Math.random() * 70)}`,
             id: i
         }
       ))
