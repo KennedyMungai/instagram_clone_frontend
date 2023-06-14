@@ -10,7 +10,7 @@ const Feed = (props: Props) => {
 				<Stories />
 				{/* Posts */}
 			</div>
-			<div className=''>
+			<div className='hidden md:flex'>
 				{/* Mini Profile */}
 
 				{/* Suggestions */}
