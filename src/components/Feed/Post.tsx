@@ -34,7 +34,7 @@ const Post = ({ username, title, userimage, img, caption }: Props) => {
 				width={500}
 				height={500}
 				alt='title'
-				className='rounded-lg w-full'
+				className='rounded-lg w-full object-cover'
 			/>
 			<div className='flex flex-row justify-between p-3'>
 				<div className='flex flex-row gap-2'>
