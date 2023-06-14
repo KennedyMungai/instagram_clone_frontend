@@ -11,7 +11,8 @@ const Stories = (props: Props) => {
     useEffect(() => {
       const storyUsers = minifaker.array(25, (i) => (
         {
-            username: minifaker.username({locale: 'en'})
+            username: minifaker.username({locale: 'en'}),
+            img: `https://i.pravatar.cc/150?img=${Math.random * 70}`
         }
       ))
     }, [])
