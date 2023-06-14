@@ -35,6 +35,10 @@ const Post = ({ username, title, userimage, img, caption }: Props) => {
 				alt='title'
 				className='rounded-lg w-full'
 			/>
+            <div className='flex flex column'>
+                <div className=''></div>
+                <div className=''></div>
+            </div>
 			<h2 className='text-2xl'>{title}</h2>
 		</div>
 	)
