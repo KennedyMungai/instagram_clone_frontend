@@ -30,7 +30,7 @@ const Stories = (props: Props) => {
 	}, [])
 
 	return (
-		<div className='flex flex-row items-center h-20 bg-white p-5'>
+		<div className='flex flex-row items-center bg-white py-4 px-2 border border-gray-200'>
 			{storyUsers.map((user) => {
 				return (
 					<Story
