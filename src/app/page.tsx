@@ -6,6 +6,12 @@ export default function Home() {
 			<h1 className='flex align-center justify-center font-bold text-3xl text-rose-500'>
 				Instagram Bitches
 			</h1>
+
+			{/* Header */}
+
+			{/* Feeds */}
+
+			{/* Modal */}
 		</main>
   )
 }
