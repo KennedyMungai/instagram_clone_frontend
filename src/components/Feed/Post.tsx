@@ -10,7 +10,7 @@ type Props = {
 
 const Post = ({ username, title, userimage, img, caption }: Props) => {
 	return (
-		<div className='bg-white p-2 my-3 rounded-lg'>
+		<div className='bg-white p-2 my-3 '>
 			<h2 className='text-2xl'>{title}</h2>
 			<Image
 				src={img}
