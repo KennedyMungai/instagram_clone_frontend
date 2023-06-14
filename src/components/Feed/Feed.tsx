@@ -1,4 +1,5 @@
 'use client'
+import Posts from './Posts'
 import Stories from './Stories'
 
 type Props = {}
@@ -10,6 +11,7 @@ const Feed = (props: Props) => {
 				{/* Stories */}
 				<Stories />
 				{/* Posts */}
+				<Posts />
 			</div>
 			<div className='hidden md:flex'>
 				{/* Mini Profile */}
