@@ -34,7 +34,7 @@ const Header = (props: Props) => {
 				<input
 					type='text'
 					placeholder='Search'
-					className='bg-gray-50 w-full p-2 rounded-md placeholder:text-center'
+					className='bg-gray-50 w-full p-2 rounded-md'
 				/>
 			</div>
 			{/* <Right></Right> */}
