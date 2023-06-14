@@ -6,8 +6,8 @@ const Header = (props: Props) => {
 	return (
 		<div>
 			{/* Left */}
-			<div className=''>
-				<div className='h-24 w-24 relative hidden md:inline-grid cursor-pointer'>
+			<div className='flex flex-row justify-around items-start max-w-6xl'>
+				<div className='h-24 w-24 cursor-pointer'>
 					<Image
 						src='/Images/InstagramText.png'
 						width={512}
@@ -16,7 +16,7 @@ const Header = (props: Props) => {
 						className='object-contain'
 					/>
 				</div>
-				<div className='h-24 w-24 relative md:hidden cursor-pointer'>
+				<div className='h-24 w-24 md:hidden cursor-pointer'>
 					<Image
 						src='/Images/InstagramLogo.png'
 						width={512}
@@ -25,6 +25,7 @@ const Header = (props: Props) => {
 						className='object-contain'
 					/>
 				</div>
+				<h1>Chicken Wings</h1>
 			</div>
 			{/* Middle */}
 
