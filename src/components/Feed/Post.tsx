@@ -38,11 +38,11 @@ const Post = ({ username, title, userimage, img, caption }: Props) => {
 			/>
 			<div className='flex flex-row justify-between p-3'>
 				<div className='flex flex-row gap-2'>
-					<AiOutlineHeart className='text-3xl hover:scale-110 transition-transform duration-300 ease-in-out' />
-					<AiOutlineMessage className='text-3xl hover:scale-110 transition-transform duration-300 ease-in-out' />
+					<AiOutlineHeart className='text-3xl hover:scale-110 transition-transform duration-300 ease-in-out cursor-pointer' />
+					<AiOutlineMessage className='text-3xl hover:scale-110 transition-transform duration-300 ease-in-out cursor-pointer' />
 				</div>
 				<div className=''>
-					<BsBookmark className='text-3xl hover:scale-110 transition-transform duration-300 ease-in-out' />
+					<BsBookmark className='text-3xl hover:scale-110 transition-transform duration-300 ease-in-out cursor-pointer' />
 				</div>
 			</div>
 			<div className='flex flex-row text-center px-10'>
