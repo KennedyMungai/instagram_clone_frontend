@@ -45,7 +45,7 @@ const Post = ({ username, title, userimage, img, caption }: Props) => {
 					<BsBookmark className='text-3xl hover:scale-110 transition-transform duration-300 ease-in-out cursor-pointer' />
 				</div>
 			</div>
-			<div className='flex flex-row text-center px-10'>
+			<div className='flex flex-row gap-3 text-center px-10'>
 				<h2 className='text-xl font-bold'>{title}</h2>
 				<p className='text-xl'>{caption}</p>
 			</div>
