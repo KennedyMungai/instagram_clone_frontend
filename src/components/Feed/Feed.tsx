@@ -6,8 +6,8 @@ type Props = {}
 
 const Feed = (props: Props) => {
 	return (
-		<section className='flex flex-row mx-20 justify-between'>
-			<div className='max-w-[60%]'>
+		<section className='flex flex-row md:mx-20 justify-between mx-4'>
+			<div className='md:max-w-[60%] w-full'>
 				{/* Stories */}
 				<Stories />
 				{/* Posts */}
