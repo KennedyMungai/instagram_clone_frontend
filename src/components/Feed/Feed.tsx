@@ -16,11 +16,13 @@ const Feed = (props: Props) => {
 				<Posts />
 			</div>
 			<div className='hidden md:flex min-w-[30%]'>
-				{/* Mini Profile */}
-				<MiniProfile />
+				<div className='fixed'>
+					{/* Mini Profile */}
+					<MiniProfile />
 
-				{/* Suggestions */}
-				<Suggestions />
+					{/* Suggestions */}
+					<Suggestions />
+				</div>
 			</div>
 		</section>
 	)

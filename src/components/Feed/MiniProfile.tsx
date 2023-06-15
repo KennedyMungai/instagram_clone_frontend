@@ -5,7 +5,7 @@ type Props = {}
 
 const MiniProfile = (props: Props) => {
 	return (
-		<div className='fixed flex items-center gap-3 justify-between'>
+		<div className='flex items-center gap-3 justify-between mb-10'>
 			<Image
 				src={'/Images/Profile.jpg'}
 				alt='Profile Pic'
