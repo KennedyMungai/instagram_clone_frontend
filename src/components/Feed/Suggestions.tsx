@@ -1,3 +1,4 @@
+'use client'
 type Props = {}
 
 const Suggestions = (props: Props) => {
