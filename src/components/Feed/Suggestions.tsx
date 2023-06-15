@@ -1,4 +1,6 @@
 'use client'
+import minifaker from 'minifaker'
+
 type Props = {}
 
 const Suggestions = (props: Props) => {
