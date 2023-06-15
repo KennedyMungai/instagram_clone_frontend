@@ -1,4 +1,5 @@
 'use client'
+import MiniProfile from './MiniProfile'
 import Posts from './Posts'
 import Stories from './Stories'
 
@@ -15,6 +16,7 @@ const Feed = (props: Props) => {
 			</div>
 			<div className='hidden md:flex max-w-[30%] fixed'>
 				{/* Mini Profile */}
+				<MiniProfile />
 
 				{/* Suggestions */}
 			</div>
