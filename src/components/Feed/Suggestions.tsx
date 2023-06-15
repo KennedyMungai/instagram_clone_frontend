@@ -9,7 +9,7 @@ const Suggestions = (props: Props) => {
 	const [suggestions, setSuggestions] = useState([])
 
 	useEffect(() => {
-		const suggestions = minifaker.array(5, (i) => ({
+		const sample_suggestions = minifaker.array(5, (i) => ({
 			username: minifaker.username({ locale: 'en' }),
 			jobTitle: minifaker.jobTitle(),
 			avatar: `https://i.pravatar.cc/150?img=${Math.ceil(
@@ -19,6 +19,8 @@ const Suggestions = (props: Props) => {
 		}))
 
 		setSuggestions(suggestions)
+
+		console.log(suggestions)
 	}, [])
 
 	return (
