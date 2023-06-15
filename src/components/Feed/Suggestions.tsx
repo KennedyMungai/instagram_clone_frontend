@@ -1,11 +1,25 @@
 'use client'
 import minifaker from 'minifaker'
-import { useState } from 'react'
+import 'minifaker/locales/en'
+import { useEffect, useState } from 'react'
 
 type Props = {}
 
 const Suggestions = (props: Props) => {
 	const [suggestions, setSuggestions] = useState([])
+
+	useEffect(() => {
+		const suggestions = minifaker.array(5, (i) => ({
+			username: minifaker.username({ locale: 'en' }),
+			jobTitle: minifaker.jobTitle(),
+			avatar: `https://i.pravatar.cc/150?img=${Math.ceil(
+				Math.random() * 70
+			)}`,
+			id: i
+		}))
+
+		setSuggestions(suggestions)
+	}, [])
 
 	return (
 		<div>
