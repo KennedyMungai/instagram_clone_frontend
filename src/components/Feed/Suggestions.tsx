@@ -27,8 +27,6 @@ const Suggestions = (props: Props) => {
 		}))
 
 		setSuggestions(sample_suggestions)
-
-		console.log(suggestions)
 	}, [])
 
 	return (
