@@ -16,7 +16,7 @@ const Feed = (props: Props) => {
 				<Posts />
 			</div>
 			<div className='hidden md:flex min-w-[30%]'>
-				<div className='fixed'>
+				<div className='fixed p-5'>
 					{/* Mini Profile */}
 					<MiniProfile />
 
