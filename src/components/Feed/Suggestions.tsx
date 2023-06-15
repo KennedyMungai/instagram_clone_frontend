@@ -17,7 +17,7 @@ const Suggestions = (props: Props) => {
 	const [suggestions, setSuggestions] = useState<ISuggestion[]>([])
 
 	useEffect(() => {
-		const sample_suggestions = minifaker.array(5, (i) => ({
+		const sample_suggestions = minifaker.array(3, (i) => ({
 			username: minifaker.username({ locale: 'en' }),
 			jobTitle: minifaker.jobTitle(),
 			avatar: `https://i.pravatar.cc/150?img=${Math.ceil(
@@ -47,6 +47,14 @@ const Suggestions = (props: Props) => {
 							className='rounded-full border p-[2px]'
 							alt={suggestion.username}
 						/>
+						<div className=''>
+							<h2 className='text-sm font-bold'>
+								{suggestion.username}
+							</h2>
+							<h3 className='text-xs text-gray-400'>
+								{suggestion.jobTitle}
+							</h3>
+						</div>
 					</div>
 				)
 			})}
