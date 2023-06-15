@@ -9,8 +9,8 @@ const MiniProfile = (props: Props) => {
 			<Image
 				src={'/Images/Profile.jpg'}
 				alt='Profile Pic'
-				width={50}
-				height={50}
+				width={40}
+				height={40}
 				className='rounded-full'
 			/>
 			<div className=''>
