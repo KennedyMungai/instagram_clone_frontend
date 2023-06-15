@@ -54,7 +54,7 @@ const Suggestions = (props: Props) => {
 							<h2 className='text-sm font-bold'>
 								{suggestion.username}
 							</h2>
-							<h3 className='text-xs text-gray-400'>
+							<h3 className='text-xs text-gray-400 font-semibold'>
 								{suggestion.jobTitle}
 							</h3>
 						</div>
