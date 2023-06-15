@@ -39,7 +39,10 @@ const Suggestions = (props: Props) => {
 			</div>
 			{suggestions.map((suggestion) => {
 				return (
-					<div className='flex items-center' key={suggestion.id}>
+					<div
+						className='flex items-center gap-1'
+						key={suggestion.id}
+					>
 						<Image
 							src={suggestion.avatar}
 							width={50}
@@ -47,7 +50,7 @@ const Suggestions = (props: Props) => {
 							className='rounded-full border p-[2px]'
 							alt={suggestion.username}
 						/>
-						<div className=''>
+						<div className='flex-1'>
 							<h2 className='text-sm font-bold'>
 								{suggestion.username}
 							</h2>
