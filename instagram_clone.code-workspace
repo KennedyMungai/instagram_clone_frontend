@@ -5,6 +5,12 @@
 		}
 	],
 	"settings": {
-		"cSpell.words": ["minifaker", "pravatar", "tailwindcss", "userimage"]
+		"cSpell.words": [
+			"Chickenwings",
+			"minifaker",
+			"pravatar",
+			"tailwindcss",
+			"userimage"
+		]
 	}
 }
