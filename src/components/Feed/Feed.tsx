@@ -13,7 +13,7 @@ const Feed = (props: Props) => {
 				{/* Posts */}
 				<Posts />
 			</div>
-			<div className='hidden md:flex max-w-[30%]'>
+			<div className='hidden md:flex max-w-[30%] fixed'>
 				{/* Mini Profile */}
 
 				{/* Suggestions */}
