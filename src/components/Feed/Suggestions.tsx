@@ -17,7 +17,7 @@ const Suggestions = (props: Props) => {
 	const [suggestions, setSuggestions] = useState<ISuggestion[]>([])
 
 	useEffect(() => {
-		const sample_suggestions = minifaker.array(3, (i) => ({
+		const sample_suggestions = minifaker.array(5, (i) => ({
 			username: minifaker.username({ locale: 'en' }),
 			jobTitle: minifaker.jobTitle(),
 			avatar: `https://i.pravatar.cc/150?img=${Math.ceil(
@@ -39,7 +39,7 @@ const Suggestions = (props: Props) => {
 			</div>
 			{suggestions.map((suggestion) => {
 				return (
-					<div className='' key={suggestion.id}>
+					<div className='flex items-center' key={suggestion.id}>
 						<Image
 							src={suggestion.avatar}
 							width={50}
