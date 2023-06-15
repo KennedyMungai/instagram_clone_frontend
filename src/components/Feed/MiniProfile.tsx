@@ -13,6 +13,11 @@ const MiniProfile = (props: Props) => {
 				height={50}
 				className='rounded-full'
 			/>
+			<div className=''>
+				<h2>Chickenwings1</h2>
+				<h3>Welcome to Instagram</h3>
+			</div>
+			<button>Sign Out</button>
 		</div>
 	)
 }
