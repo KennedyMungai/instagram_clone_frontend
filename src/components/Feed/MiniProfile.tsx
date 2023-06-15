@@ -15,7 +15,7 @@ const MiniProfile = (props: Props) => {
 			/>
 			<div className=''>
 				<h2 className='font-bold'>Chickenwings1</h2>
-				<h3>Welcome to Instagram</h3>
+				<h3 className='text-sm text-gray-400'>Welcome to Instagram</h3>
 			</div>
 			<button>Sign Out</button>
 		</div>
