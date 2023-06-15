@@ -5,7 +5,7 @@ type Props = {}
 
 const MiniProfile = (props: Props) => {
 	return (
-		<div className='fixed flex'>
+		<div className='fixed flex items-center justify-between'>
 			<Image
 				src={'/Images/Profile.jpg'}
 				alt='Profile Pic'
