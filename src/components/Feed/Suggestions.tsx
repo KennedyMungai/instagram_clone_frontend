@@ -63,7 +63,7 @@ const Suggestions = (props: Props) => {
 								</h3>
 							</div>
 						</div>
-						<button className='text-blue-500 font-semibold'>
+						<button className='text-blue-500 font-semibold text-sm'>
 							Follow
 						</button>
 					</div>
