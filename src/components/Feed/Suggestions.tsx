@@ -26,7 +26,7 @@ const Suggestions = (props: Props) => {
 			id: i
 		}))
 
-		setSuggestions(suggestions)
+		setSuggestions(sample_suggestions)
 
 		console.log(suggestions)
 	}, [])
@@ -37,17 +37,19 @@ const Suggestions = (props: Props) => {
 				<h3 className='font-bold text-gray-400'>Suggestions For You</h3>
 				<button className='text-gray-600 font-semibold'>See All</button>
 			</div>
-			{suggestions.map((suggestion) => (
-				<div className='' key={suggestion.id}>
-					<Image
-						src={suggestion.avatar}
-						width={50}
-						height={50}
-						className='rounded-full border p-[2px]'
-						alt={suggestion.username}
-					/>
-				</div>
-			))}
+			{suggestions.map((suggestion) => {
+				return (
+					<div className='' key={suggestion.id}>
+						<Image
+							src={suggestion.avatar}
+							width={50}
+							height={50}
+							className='rounded-full border p-[2px]'
+							alt={suggestion.username}
+						/>
+					</div>
+				)
+			})}
 		</div>
 	)
 }
