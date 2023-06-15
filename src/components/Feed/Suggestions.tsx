@@ -38,26 +38,32 @@ const Suggestions = (props: Props) => {
 				<button className='text-gray-600 font-semibold'>See All</button>
 			</div>
 			{suggestions.map((suggestion) => {
-				return (
+                return (
 					<div
-						className='flex items-center gap-1'
+						className='flex flex-row justify-between items-center p-2 border-b-[1px] border-gray-200'
 						key={suggestion.id}
 					>
-						<Image
-							src={suggestion.avatar}
-							width={50}
-							height={50}
-							className='rounded-full border p-[2px]'
-							alt={suggestion.username}
-						/>
-						<div className='flex-1'>
-							<h2 className='text-sm font-bold'>
-								{suggestion.username}
-							</h2>
-							<h3 className='text-xs text-gray-400 font-semibold truncate max-w-[150px]'>
-								{suggestion.jobTitle}
-							</h3>
+						<div
+							className='flex items-center gap-1'
+							key={suggestion.id}
+						>
+							<Image
+								src={suggestion.avatar}
+								width={50}
+								height={50}
+								className='rounded-full border p-[2px]'
+								alt={suggestion.username}
+							/>
+							<div className='flex-1'>
+								<h2 className='text-sm font-bold'>
+									{suggestion.username}
+								</h2>
+								<h3 className='text-xs text-gray-400 font-semibold truncate max-w-[150px]'>
+									{suggestion.jobTitle}
+								</h3>
+							</div>
 						</div>
+						<button className='text-blue-500'>Follow</button>
 					</div>
 				)
 			})}
