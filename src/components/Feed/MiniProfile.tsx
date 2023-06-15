@@ -14,7 +14,7 @@ const MiniProfile = (props: Props) => {
 				className='rounded-full border-2 p-1'
 			/>
 			<div className=''>
-				<h2>Chickenwings1</h2>
+				<h2 className='font-bold'>Chickenwings1</h2>
 				<h3>Welcome to Instagram</h3>
 			</div>
 			<button>Sign Out</button>
